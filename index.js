@@ -50,13 +50,13 @@ app.post("/posts", (req, res) => {
 // EDIT ROUTE
 app.get("/posts/:id/edit", (req, res) => {
   let { id } = req.params;
-  let post = posts.find((p) => id === p.id);
+  let post = posts.find((p) => p.id === id);
   res.render("edit", { post });
 });
 
 app.patch("/posts/:id", (req, res) => {
   let { id } = req.params;
-  let post = posts.find((p) => id === p.id);
+  let post = posts.find((p) => p.id === id);
   let newContent = req.body.content;
   post.content = newContent;
   res.redirect("/posts");
