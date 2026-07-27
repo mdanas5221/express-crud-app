@@ -37,7 +37,7 @@ express-crud-app/
 │   ├── edit.ejs
 │   └── view.ejs
 │
-├── app.js
+├── index.js
 ├── package.json
 └── README.md
 ```
