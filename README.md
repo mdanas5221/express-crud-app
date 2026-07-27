@@ -59,7 +59,7 @@ express-crud-app/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/express-crud-app.git
+git clone https://github.com/mdanas5221/express-crud-app.git
 ```
 
 2. Navigate to the project folder
